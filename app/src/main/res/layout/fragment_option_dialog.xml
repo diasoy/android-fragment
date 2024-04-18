@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".OptionDialogFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa tim sepakbola favoritmu?"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_bayernmunchen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bayernmunchen" />
+
+        <RadioButton
+            android:id="@+id/rb_barcelona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/barcelona" />
+
+        <RadioButton
+            android:id="@+id/rb_realmadrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/realmadrid" />
+
+        <RadioButton
+            android:id="@+id/rb_liverpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/liverpool" />
+    </RadioGroup>
+
+</LinearLayout>
